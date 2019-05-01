@@ -30,4 +30,5 @@ public class test {
 	        //ResponseEntity<String> responseEntity = restTemplate.exchange("http://www.webxml.com.cn/webservices/qqOnlineWebService.asmx",HttpMethod.POST,requestEntity,String.class,xml);
 	        System.out.println(responseEntity.getBody());
     }
+	//http://www.webxml.com.cn/webservices/qqOnlineWebService.asmx?op=qqCheckOnline
 }
